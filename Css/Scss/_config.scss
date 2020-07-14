@@ -1,0 +1,72 @@
+$mainColor: #05ADDA;
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgb(250, 250, 250);
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-color: #010230;
+}
+
+.btn-primary{
+
+    font-size: .8rem;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    
+}
+
+.bg-tran{
+    background: transparent !important;
+}
+
+.bg-color{
+    background: #020220 !important;
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+
+    
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    
+    #domain{
+
+        input{
+
+            width: 100%;
+        }
+        button{
+
+            width: 50% !important;
+        }
+
+        select{
+
+            width: 50% !important;
+            margin-left: 1px !important;
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 992px) {
+    
+ 
+}

@@ -1,0 +1,245 @@
+@import "config";
+
+
+// ٍStart NavBar
+
+.navbar-light .navbar-toggler-icon {
+
+    color: white;
+    background-color: white;
+}
+
+.navbar{
+
+
+    transition: all 0.4s ease-in-out;
+    .navbar-brand{
+
+        transition: all 1s ease-in-out;
+        img{
+
+            height: 50px;
+            transition: all 0.4s ease-in-out;
+
+            &:hover{
+                
+                transform: scale(1.1) rotate(360deg);
+            }
+        }
+    }
+    
+    .nav-item{
+
+        a{
+            color: white !important;
+            text-transform: uppercase;
+            font-size: .78rem;
+            font-weight: 600;
+            margin-left: 3em;
+            letter-spacing: 1px;
+
+            
+        }
+
+    }
+
+}
+
+
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link{
+
+    color: $mainColor !important;
+}
+
+.navbar-light .navbar-nav .nav-item:hover .nav-link{
+
+    color: $mainColor!important;
+}
+
+
+#home{
+
+    background-image: url(../../Images/Hero-image-2.png);
+    background-size: cover;
+    height: 120vh;
+    color: white;
+
+    .content-area{
+
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        h1{
+
+            letter-spacing: 2px;
+        }
+
+        p{
+
+            letter-spacing: 2px;
+            line-height: 1.8em;
+            opacity: .9;
+            font-size: .8em;
+        }
+    }
+}
+
+// Start Domain Section 
+
+#domain{
+
+    margin-top: 60px;
+
+    p{
+        letter-spacing: 1px;
+        line-height: 2em;
+    }
+
+    .box{
+
+        background-color: #000127;
+
+        input{
+
+            border-radius: 0px;
+            height: 60px;
+            width: 500px;
+            border-color: $mainColor;
+            border-width: 1px;
+            background-color: #010230;
+            color: white;
+
+            
+        }
+        ::placeholder{
+
+            color: white;
+            opacity: .7;
+            font-size: .8em;
+            letter-spacing: 1px;
+        }
+        select{
+    
+            border-radius: 0px;
+            height: 60px;
+            width: 100px;
+            margin-left: -3px;
+            border-color: $mainColor;
+            border-width: 1px;
+            background-color: #000127;
+            color: white;
+            
+
+        }
+
+        button{
+    
+            border-radius: 0px;
+            height: 60px;
+            margin-left: -3px;
+            width: 100px;
+            border-width: 1px;
+
+        }
+
+        li{
+
+            display: inline-block;
+            color: white;
+            margin: 25px;
+            margin-bottom: 0;
+            font-size: 0.9em;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+
+            &:hover{
+
+                font-size: 1em;
+                color: $mainColor;
+            }
+        }
+    }
+
+    
+}
+
+#service{
+
+    h2{
+        text-transform: uppercase;
+    }
+
+
+    margin-top: 150px;
+    .container{
+        >p{
+            letter-spacing: 1px;
+        }
+    
+    }
+
+    .card{
+
+        background: transparent;
+        border: 1px solid $mainColor;
+        cursor: pointer;
+        height: 285px;
+        transition: all 0.3s ease-in-out;
+
+        img{
+
+            transform: scale(0.7);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .secure{
+
+
+                margin-top: -9.5px;
+                transform: scale(0.7);
+                padding-bottom: 0;
+            
+
+        }
+
+        h5{
+
+            font-size: 1.2em;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        p{
+
+            font-size: .8em;
+            line-height: 1.8em;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        &:hover{
+
+            background-color: #00012791;
+            img{
+                transform: scale(0.8) ;
+            }
+        }
+    }
+}
+
+#get-started{
+
+    background-color: #000127;
+    margin-top: 100px;
+    width: 100%;
+}
+
+footer{
+
+    height: 70px;
+    background-color: #000113;
+}
